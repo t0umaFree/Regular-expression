@@ -1,9 +1,9 @@
 # Regular-expression
 
-靶场测试环境-正则表达式测试
+# 正则表达式
 
-
- <?php  
+# 
+# <?php  
 $key='flag{********************************}'; 
 $Regular= preg_match("/zkaq.*key.{2,9}:\/.*\/(key*key)/i", trim($_GET["id"]), $match); 
 if( $Regular ){  
